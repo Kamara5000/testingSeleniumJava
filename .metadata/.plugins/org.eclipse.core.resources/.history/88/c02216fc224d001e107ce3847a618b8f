@@ -1,0 +1,12 @@
+package testNG;
+
+public class TestNGOne {
+	
+	//testng can be imported using the dependency
+	//or through the market place by
+	//click help button
+	//select eclipse marketplace
+	//sesrch testng
+	//clisk install
+	
+}

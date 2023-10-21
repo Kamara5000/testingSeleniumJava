@@ -1,0 +1,12 @@
+package stepDefinition;
+
+import utilities.Base_Util;
+
+public class Hook extends Base_Util {
+	
+	private Base_Util base;
+	
+	public Hook(Base_Util base) {
+		this.base = base;
+	}
+}

@@ -1,0 +1,26 @@
+package stepDefinition;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import library.Constants;
+import utilities.Base_Util;
+
+public class Hook extends Base_Util {
+	
+	private Base_Util base;
+	
+	public Hook(Base_Util base) {
+		this.base = base;
+	}
+	
+	@Before
+	public void setup() {
+		base.driver = library.Browsers.launchBrowser("chrome");
+		base.driver.get(Constants.URL);
+	}
+	
+	@After
+	public void tearDown() {
+		base.driver.quit();
+	}
+}

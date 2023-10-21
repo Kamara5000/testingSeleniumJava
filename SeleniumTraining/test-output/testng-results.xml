@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-07T04:07:45 BST" name="Suite" finished-at="2023-09-07T04:08:06 BST" duration-ms="21393">
+    <groups>
+    </groups>
+    <test started-at="2023-09-07T04:07:45 BST" name="Test ran on edge" finished-at="2023-09-07T04:07:56 BST" duration-ms="10948">
+      <class name="testNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:45 BST" name="beforeClass" finished-at="2023-09-07T04:07:45 BST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:45 BST" name="before" finished-at="2023-09-07T04:07:49 BST" duration-ms="3874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:49 BST" name="Login_Test_1" finished-at="2023-09-07T04:07:49 BST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:49 BST" name="after" finished-at="2023-09-07T04:07:50 BST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_1 status=SUCCESS method=CrossBrowserTesting.Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:50 BST" name="before" finished-at="2023-09-07T04:07:52 BST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:52 BST" name="Login_Test_2" finished-at="2023-09-07T04:07:52 BST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_2 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:52 BST" name="after" finished-at="2023-09-07T04:07:53 BST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_2 status=SUCCESS method=CrossBrowserTesting.Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:53 BST" name="before" finished-at="2023-09-07T04:07:55 BST" duration-ms="2152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:55 BST" name="Login_Test_3" finished-at="2023-09-07T04:07:55 BST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+
+at testNG.CrossBrowserTesting.Login_Test_3(CrossBrowserTesting.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_3 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:55 BST" name="after" finished-at="2023-09-07T04:07:56 BST" duration-ms="930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_3 status=FAILURE method=CrossBrowserTesting.Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.CrossBrowserTesting@36ebc363]" started-at="2023-09-07T04:07:56 BST" name="afterClass" finished-at="2023-09-07T04:07:56 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.CrossBrowserTesting -->
+    </test> <!-- Test ran on edge -->
+    <test started-at="2023-09-07T04:07:45 BST" name="Test ran on chrome" finished-at="2023-09-07T04:07:58 BST" duration-ms="12718">
+      <class name="testNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:45 BST" name="beforeClass" finished-at="2023-09-07T04:07:45 BST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:45 BST" name="before" finished-at="2023-09-07T04:07:49 BST" duration-ms="3749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:49 BST" name="Login_Test_1" finished-at="2023-09-07T04:07:49 BST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:49 BST" name="after" finished-at="2023-09-07T04:07:50 BST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_1 status=SUCCESS method=CrossBrowserTesting.Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:50 BST" name="before" finished-at="2023-09-07T04:07:53 BST" duration-ms="3062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:53 BST" name="Login_Test_2" finished-at="2023-09-07T04:07:53 BST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_2 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:53 BST" name="after" finished-at="2023-09-07T04:07:54 BST" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_2 status=SUCCESS method=CrossBrowserTesting.Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:54 BST" name="before" finished-at="2023-09-07T04:07:57 BST" duration-ms="2802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:57 BST" name="Login_Test_3" finished-at="2023-09-07T04:07:57 BST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+
+at testNG.CrossBrowserTesting.Login_Test_3(CrossBrowserTesting.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_3 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:57 BST" name="after" finished-at="2023-09-07T04:07:58 BST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_3 status=FAILURE method=CrossBrowserTesting.Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.CrossBrowserTesting@292b08d6]" started-at="2023-09-07T04:07:58 BST" name="afterClass" finished-at="2023-09-07T04:07:58 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.CrossBrowserTesting -->
+    </test> <!-- Test ran on chrome -->
+    <test started-at="2023-09-07T04:07:45 BST" name="Test ran on firefox" finished-at="2023-09-07T04:08:06 BST" duration-ms="21393">
+      <class name="testNG.CrossBrowserTesting">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:07:45 BST" name="beforeClass" finished-at="2023-09-07T04:07:45 BST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:07:45 BST" name="before" finished-at="2023-09-07T04:07:53 BST" duration-ms="8106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:07:53 BST" name="Login_Test_1" finished-at="2023-09-07T04:07:54 BST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:07:54 BST" name="after" finished-at="2023-09-07T04:07:55 BST" duration-ms="1524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_1 status=SUCCESS method=CrossBrowserTesting.Login_Test_1()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:07:55 BST" name="before" finished-at="2023-09-07T04:08:00 BST" duration-ms="4846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:00 BST" name="Login_Test_2" finished-at="2023-09-07T04:08:01 BST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_2 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:01 BST" name="after" finished-at="2023-09-07T04:08:02 BST" duration-ms="982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_2 status=SUCCESS method=CrossBrowserTesting.Login_Test_2()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:02 BST" name="before" finished-at="2023-09-07T04:08:05 BST" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:05 BST" name="Login_Test_3" finished-at="2023-09-07T04:08:05 BST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method loginToSauseDemo(String, String) in the type Login_page is not applicable for the arguments (int, String)
+
+at testNG.CrossBrowserTesting.Login_Test_3(CrossBrowserTesting.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_3 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:05 BST" name="after" finished-at="2023-09-07T04:08:06 BST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_3 status=FAILURE method=CrossBrowserTesting.Login_Test_3()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.CrossBrowserTesting@2a4fb17b]" started-at="2023-09-07T04:08:06 BST" name="afterClass" finished-at="2023-09-07T04:08:06 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.CrossBrowserTesting -->
+    </test> <!-- Test ran on firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

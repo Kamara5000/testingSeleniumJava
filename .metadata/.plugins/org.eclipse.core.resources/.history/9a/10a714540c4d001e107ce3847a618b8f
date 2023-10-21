@@ -1,0 +1,33 @@
+package seleniumFirstClass;
+
+public class Locators {
+
+	
+	public void Locators(){
+		
+		//locators allows selenium to interact with elements
+		//attribute and value of attribute
+		//static attibutes : these attributes do not change e.g id, name and data tags
+		//dynamic attributes : their attributes are change often e.g class, type, data-test
+		//types of locator
+			// Xpath - //tag[@attributes = 'value'] e.g //input[@name ='user-name']
+		
+		//locating an element through ancestor
+		//note - if an element does not have a static attribute, you find a parent tag that have
+		// a static attribute and link it till you reach the element
+		//e.g //div[@id='login_button_container']/div/form/div[2]/input
+		
+		//locating an element through sibling
+		//the best to use in this case is to target a closer sibling with a static locator, go up the ladder
+		//to a parent tag that have both and return down to the element to be targeted
+		//e.g //input[@id='user-name']/../../div[2]/input
+		
+		//locating through text
+		//syntax - //tag[text()='text']
+		//e.g //span[text()='AGREE']/..
+		
+		//locators targetting multiple element
+			
+	}
+
+}

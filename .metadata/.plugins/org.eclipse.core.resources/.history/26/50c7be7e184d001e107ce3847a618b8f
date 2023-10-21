@@ -1,0 +1,58 @@
+package seleniumFirstClass;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import pages.Login_page;
+
+public class Login_Tests {
+	
+WebDriver driver;
+	
+	//page object model POM - makes your code readable, reusable and easy to maintain
+	//it is a library of locators and methods that can be reused
+	
+	@Test
+	public void Login_Test_1() {
+		
+		driver = library.Browsers.launchBrowser("chrome");
+		
+		driver.get("https://www.saucedemo.com/");
+		
+		
+//		driver.findElement(By.xpath("//input[@name='user-name']")).sendKeys("standard_user");
+//		
+//		driver.findElement(By.id("password")).sendKeys("secret_sauce");
+//		
+//		driver.findElement(By.id("login-button")).click();
+		
+		
+		//using pom
+Login_page login = new Login_page(driver);
+		
+		login.enterUsername();
+		login.enterPassword();
+		login.clickOnLoginButton();
+		
+		driver.quit();
+
+	}
+	
+	@Test
+	public void Login_Test_2() {
+		
+		driver = library.Browsers.launchBrowser("chrome");
+		
+		driver.get("https://www.saucedemo.com/");
+		
+		driver.findElement(By.xpath("//input[@name='user-name']")).sendKeys("standard_user");
+		
+		driver.findElement(By.id("password")).sendKeys("secret_sauce");
+		
+		driver.findElement(By.id("login-button")).click();
+		
+		driver.quit();
+
+	}
+}

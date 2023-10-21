@@ -1,0 +1,29 @@
+package jUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+
+public class FirstJunitClass {
+	
+	//test frameworks helps to organise your tests so its readable and easy
+	//annotations - @Before, @After, @BeforeClass @AfterClass @Test
+	//@After - runs after every test
+	//@Before- runs before every test
+	//@BeforeClass - run before all code
+	//@AfterClass - run after all your code
+	//@Test - this is the test code
+	
+	WebDriver driver;
+	
+	@Before
+	public void before() {
+		System.out.println("run before every tests");
+	}
+	
+	@After
+	public void after() {
+		System.out.println("run after every tests");
+	}
+	
+}
