@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Browsers {
-	
+	// this is a browser library for different browsers
 	public static WebDriver launchBrowser(String browser) {
 		
 		if(browser.equalsIgnoreCase("chrome")) {
